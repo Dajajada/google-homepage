@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    height: auto;
+    position: inline;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    position: absolute;
+    left: 0px;
+}
+.right{
+    position: absolute;
+    right: 0px;
+}
+.perfil{
+    width: 30px;
+    height: auto;
+   
+}
+nav{
+    width: 10%;
+    height: auto;
+}
+li{
+    display: inline;
+    margin: 5%;
+}
+.principal{
+    align-items: center;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+   margin-top: 30%;
+   max-width: 600px;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+form{
+    margin-top: 10%;
+
+}
+input{
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+
+}
+.secundary{
+   
+    padding-top: 10%;
+}
+button{
+    background-color: #f2f2f2;
+    margin-left: 5%;
+    border: 1px solid #f2f2f2;
+    width: 30%;
+    height: auto;
+    font-size: 100%;
+}
+.google{
+    width: 75%;
+    height: auto;
+}
+a:hover{
+    text-decoration: underline;
+
+}
+footer{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    background-color:  #f2f2f2;
+    
+}
+.fi{
+    text-align: center;
+   max-height: 10px;
+   border: 1px solid  #f2f2f2;
+  
+}
+.fr{
+    border: 1px solid  #f2f2f2;
+    text-align: center;
+    max-height: 10px;
+    
+
+}
+.tf{
+    border: 1px solid  #f2f2f2;
+    max-height: 20px;
+
+}
